@@ -13,6 +13,7 @@ source .venv/bin/activate
 # 4.install dependencies and freeze version so i can rely on them
 >pip install -r requirements.txt
 >pip freeze > requirements.txt
+freeze ทุกครั้งที่เพิ่มอะไรเข้าไป
 # 5.create .env for secrets
 >touch .env
 >open ai key, file password
